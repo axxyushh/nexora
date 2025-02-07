@@ -23,4 +23,12 @@ export const testimonials = [
     role: "Marketing Director",
     company: "Global Corp",
   },
+  {
+    quote:
+      "Bahut mast hai ekdam tagda bc, sexy.",
+    author: "Rishi Varma",
+    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    role: "KLU Student",
+    company: "Global Corp",
+  },
 ];
