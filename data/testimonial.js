@@ -31,4 +31,12 @@ export const testimonials = [
     role: "KLU Student",
     company: "Global Corp",
   },
+  {
+    quote:
+      "Veryyy Good",
+    author: "Koushil Varma",
+    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    role: "Student",
+    company: "KLEF",
+  },
 ];
