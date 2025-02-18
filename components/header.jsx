@@ -12,7 +12,7 @@ const Header = async() => {
   return (
     <header className='fixed top-0 w-full border-b bg-background/80 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/60'>
         <nav className='container mx-auto px-4 h-16 flex justify-between items-center'>
-            <Link href={'/'}>
+            <Link href={'/'} className='pb-10 pt-8'>
                 <Image src="/logo.png" alt="logo" width={200} height={60} className='h-20 py-1 w-auto object-contain' />
             </Link>
 
