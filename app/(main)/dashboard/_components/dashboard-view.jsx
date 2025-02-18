@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Progress } from "@/components/ui/progress";
 import { format, formatDistanceToNow } from "date-fns";
 import { Brain, BriefcaseIcon, LineChart, TrendingDown, TrendingUp } from "lucide-react";
-import { Bar, BarChart, CartesianGrid, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 const DashboardView = ({insights}) => {
   const salaryData = insights.salaryRanges.map((range) => ({
