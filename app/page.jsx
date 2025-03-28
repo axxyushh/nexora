@@ -1,3 +1,4 @@
+import Counter from "@/components/counter";
 import HeroSection from "@/components/hero";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
@@ -53,12 +54,16 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
 
             <div className="flex flex-col items-center justify-center space-y-2">
-              <h3 className="text-4xl font-bold">40+</h3>
+              <h3 className="text-4xl font-bold">
+                <Counter end={40} duration={2}/>
+              </h3>
               <p className="text-muted-foreground">Industries Covered</p>
             </div>
 
             <div className="flex flex-col items-center justify-center space-y-2">
-              <h3 className="text-4xl font-bold">500+</h3>
+              <h3 className="text-4xl font-bold">
+              <Counter end={500} duration={3}/>
+              </h3>
               <p className="text-muted-foreground">Interview Questions</p>
             </div>
 
@@ -90,7 +95,7 @@ export default function Home() {
             return(
               <div
                key={index}
-               className="flex flex-col items-center text-center space-y-4"
+               className="flex flex-col items-center text-center space-y-4 cursor-pointer"
               >
                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
                   {item.icon}
