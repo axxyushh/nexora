@@ -9,7 +9,7 @@ export default function Footer() {
         <p className="mt-1 text-lg">
           Developed by&nbsp;
           <Link href={"https://my-portfolio-seven-sand-94.vercel.app/"} target="_blank" className="hover:underline"> 
-            Ayush Srivastava
+            {/* Ayush Srivastava */}
           </Link>
         </p>
         <div className="mt-3 flex justify-center space-x-4">
